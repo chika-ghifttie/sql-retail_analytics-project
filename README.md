@@ -9,7 +9,7 @@ This project demonstrates the design and implementation of a SQL Server data war
 ### Data Engineering & Analytics
 
 #### Objective
-Develop a modern data warehouse using SQL Server to consolidate retail sales data. The warehouse supports both data engineering tasks (ETL, data modeling, schema design) analytics and informed decision making (SQL queries, reporting tables, KPIs).
+To develop a modern data warehouse using SQL Server to consolidate retail sales data. The warehouse supports both data engineering tasks (ETL, data modeling, schema design) analytics and informed decision making (SQL queries, reporting tables, KPIs).
 
 #### Specifications
 - **Data Sources**: Dataset gotten from Kaggle consisting of six CSV files representing different aspects of retail sales (e.g., customers, sales transactions, products, etc.).
