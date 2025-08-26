@@ -16,7 +16,7 @@ To develop a modern data warehouse using SQL Server to consolidate retail sales 
 - **Data Quality**: Before integration, data cleansing will be performed to handle missing values, remove duplicates, standardize formats, and ensure overall consistency.
 - **Integration**: The six CSV files will be integrated into a unified SQL Server Data Warehouse through ETL processes, ensuring referential integrity and enabling consolidated reporting.
 - **Scope**: The scope will focus on the latest dataset provided (CSV files from Kaggle), and historical updates beyond this dataset are out of scope.
-- **Documentation**: provide clear documentation of the data model to support business stakeholders and analytics teams.
+- **Documentation**: Provide clear documentation of the data model to support business stakeholders and analytics teams.
 
   ----
 
