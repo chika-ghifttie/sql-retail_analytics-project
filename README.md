@@ -4,7 +4,7 @@ Welcome to the * *Retail Analytics Project* * repository!✨
 This project demonstrates the design and implementation of a SQL Server data warehouse. It covers ETL processes, data modeling, and analytics to transform raw data into meaningful insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics, showcasing skills in building scalable data solutions and delivering actionable insights.
 
 ---
-🚀 ## Project Requirements
+## 🚀 Project Requirements
 
 ### Data Engineering & Analytics
 
