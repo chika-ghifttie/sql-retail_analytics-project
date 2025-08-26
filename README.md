@@ -12,7 +12,7 @@ This project demonstrates the design and implementation of a SQL Server data war
 To develop a modern data warehouse using SQL Server to consolidate retail sales data. The warehouse supports both data engineering tasks (ETL, data modeling, schema design) analytics and informed decision making (SQL queries, reporting tables, KPIs).
 
 #### Specifications
-- **Data Sources**: Dataset gotten from Kaggle consisting of six CSV files representing different aspects of retail sales (e.g., customers, sales transactions, products, etc.).
+- **Data Sources**: Dataset is gotten from Kaggle consisting of six CSV files representing different aspects of retail sales (e.g., customers, sales transactions, products, etc.).
 - **Data Quality**: Before integration, data cleansing will be performed to handle missing values, remove duplicates, standardize formats, and ensure overall consistency.
 - **Integration**: The six CSV files will be integrated into a unified SQL Server Data Warehouse through ETL processes, ensuring referential integrity and enabling consolidated reporting.
 - **Scope**: The scope will focus on the latest dataset provided (CSV files from Kaggle), and historical updates beyond this dataset are out of scope.
