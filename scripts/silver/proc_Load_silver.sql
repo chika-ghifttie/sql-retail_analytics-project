@@ -66,10 +66,10 @@ BEGIN
 		END AS gender,
 		ISNULL(email, 'Not Provided') AS email,
 		CASE
-			WHEN phone LIKE '+1%' AND LEN(REPLACE(phone,'+','')) = 11 THEN phone
-			WHEN phone NOT LIKE '%[^0-9]%' AND LEN(phone) = 10 THEN '+1' + phone
-			ELSE 'Not Provided'
-		END AS phone,
+    WHEN LEN(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(phone,'(',''),')',''),'-',''),'.',''),'+',''),'X','')) >= 10
+        THEN RIGHT(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(phone,'(',''),')',''),'-',''),'.',''),'+',''),'X',''), 10)
+    ELSE 'Not Provided'
+END AS phone,
 		ISNULL(TRIM(street_address), 'Not Provided') AS street_address,
 		ISNULL(TRIM(city), 'Not Provided') AS city,
 		ISNULL(TRIM(state), 'Not Provided') AS state,
