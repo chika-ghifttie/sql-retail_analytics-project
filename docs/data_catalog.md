@@ -29,3 +29,14 @@ It consists of dimension tables and fact tables that store and organize data for
 | registration_date  | NVARCHAR(50) | Date when the customer registered                                                           |
 
 
+
+| Column Name       | Data Type  | Description                                      |
+|------------------|-----------|--------------------------------------------------|
+| customer_id       | INT       | Unique identifier for each customer              |
+| customer_name     | VARCHAR   | Full name of the customer                        |
+| age               | INT       | Age of the customer                              |
+| city              | VARCHAR   | City where the customer resides                  |
+| country           | VARCHAR   | Country of the customer                          |
+
+
+
