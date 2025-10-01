@@ -30,7 +30,7 @@ It consists of dimension tables and fact tables that store and organize data for
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-**1. gold.dim_customers_reviews**
+**2. gold.dim_customers_reviews**
 
 - **Purpose:** The Customer Review dimension in the Gold Layer captures customer feedback, structured to support analytics and reporting.
                 It stores review details and links to the customer dimension for business metrics.
@@ -48,6 +48,27 @@ It consists of dimension tables and fact tables that store and organize data for
 | review_text         | NVARCHAR(MAX)  | Full text content of the review.                                                                  |
 | transaction_date    | DATE           | Date when the purchase/transaction occurred.                                                     |
 | review_date         | NVARCHAR(50)   | Date when the customer submitted the review.                                                     |
+
+
+
+**3. gold.fact_transaction**
+
+- **Purpose:** The Transaction fact table in the Gold Layer records business transactions, structured to support analytics and reporting.
+
+| Column Name        | Data Type       | Short Description                                                                                  |
+|-------------------|----------------|---------------------------------------------------------------------------------------------------|
+| transaction_id     | BIGINT         | Surrogate key uniquely identifying each transaction record.                                        |
+| customer_key       | BIGINT         | Foreign key linking to the customer who made the transaction.                                     |
+| product_name       | NVARCHAR(50)   | Name of the product purchased.                                                                    |
+| product_category   | NVARCHAR(50)   | Category or type of the product purchased.                                                       |
+| store_location     | NVARCHAR(100)  | Physical or online store location where the transaction occurred.                                 |
+| payment_method     | NVARCHAR(100)  | Method of payment used for the transaction (e.g., Cash, Credit Card).                             |
+| transaction_date   | DATE           | Date when the transaction took place.                                                            |
+| quantity           | DECIMAL(10,2)  | Number of units purchased in the transaction.                                                    |
+| price              | DECIMAL(10,2)  | Price per unit of the product at the time of the transaction.                                     |
+| discount_applied   | DECIMAL(10,2)  | Discount amount applied to the transaction, if any.                                              |
+
+
 
 
 
