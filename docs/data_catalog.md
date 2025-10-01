@@ -9,4 +9,4 @@ It consists of dimension tables and fact tables that store and organize data for
 
 **1. gold.dim_customers**
 
- ** * Purpose:** 
+** -Purpose:** 
