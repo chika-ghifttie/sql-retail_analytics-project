@@ -69,35 +69,29 @@ CREATE VIEW gold.dim_customer_reviews AS
 	ON r.customer_id=ci.customer_id
 
 
-	SELECT TOP 20 * FROM gold.dim_customer_reviews;--To confirm/check the quality
+----=======================================================================================
+--Create Dimension: gold.fact_transaction
+--==========================================================================================
+IF OBJECT_ID('gold.fact_transaction', 'V') IS NOT NULL
+      DROP VIEW gold.fact_transaction
+	  GO
+
+CREATE VIEW gold.fact_transaction AS 
+	SELECT 
+	t.transaction_id AS transaction_id,
+	ci.customer_key,
+	t.product_name AS product_name,
+	t.product_category AS product_category,
+	t.store_location AS store_location,
+	t.payment_method AS payment_method,
+	t.transaction_date AS transaction_date,
+	t.quantity AS quantity,
+	t.price AS price,
+	t.discount_applied AS discount_applied
+	FROM [dbo].[silver_transactions]t
+	LEFT JOIN [gold].[dim_customers]ci
+	ON t.customer_id=ci.customer_id
 
 
--------------------------------------------------------------------------------------------
-
---i noticed i still had nulls in my silver_layer customers table
-SELECT * from [dbo].[silver_cust_review] ----i ran this to confirm the null
-	where full_name is null
-	UPDATE [dbo].[silver_cust_review]--- ran this to replace the null with unknown
-	SET full_name= 'Unknown'
-	WHERE full_name IS NULL
-
-	SELECT TOP 20 * FROM gold.dim_customer_reviews;--To confirm/check the quality
-
-	SELECT * FROM gold.fact_transaction----To ccheck for the quality
 
 	
-	---Check if all the dimension tables can successfully join the fact table[Foreign key intergrity(dimensions)]
-	SELECT *
-	FROM [gold].[fact_transaction] f
-	LEFT JOIN [gold].[dim_customers] ci
-	ON ci.customer_key = f.customer_key
-	LEFT JOIN [gold].[dim_customer_reviews] r
-	ON r.customer_key = f.customer_key
-	WHERE ci.customer_key IS NULL
-	
-----------------------------------------------------------------------------------------------
-
-SELECT * FROM [dbo].[silver_cust]
-
-SELECT * FROM [gold].[dim_customers]
-
