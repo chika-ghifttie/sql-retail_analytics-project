@@ -32,7 +32,7 @@ This project involves
 
 Access all for free!
 
-🔗 **Dataset Source**
+🔗 **Dataset Source:**
 The dataset used in this project was obtained from [Kaggle](https://www.kaggle.com/datasets).  
 *(Exact link unavailable at the moment.)*
 
