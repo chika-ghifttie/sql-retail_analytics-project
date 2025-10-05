@@ -4,6 +4,31 @@ Welcome to the * *Retail Analytics Project* * repository!✨
 This project demonstrates the design and implementation of a SQL Server data warehouse. It covers ETL processes, data modeling, and analytics to transform raw data into meaningful insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics, showcasing skills in building scalable data solutions and delivering actionable insights.
 
 ---
+
+## 📋 Project Requirement
+
+This project involves
+**1. Data Architecture:** Designing a Modern Data Warehouse Using Meddalion Architecture **Bronze, Silver, and Gold** layers.
+**2. ETL Pipelines:** Extracting, transforming, and eloading data from source system into the warehouse.
+**3. Data Modeling:** Developing fact and dimension tables optimized for analytical queries.
+**3. Analytics & Reporting:** Creating SQL-based reports and dashboards for actionable insights.
+
+🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
+
+- SQL Development
+- Data Architect
+- Data Engineering
+- ETL Pipeline Developer
+- Dat Modeling
+- Data Analytics
+  
+---
+
+## 🛠️ Important Links & Tools
+
+
+
+---
 ## 🚀 Project Requirements
 
 ### Data Engineering & Analytics
@@ -35,7 +60,7 @@ To develop a modern data warehouse using SQL Server to consolidate retail sales 
 
     ---
 
-    🛠️ Important Links & Tools
+
 
     
 
