@@ -8,6 +8,7 @@ This project demonstrates the design and implementation of a SQL Server data war
 ## 📋 Project Requirement
 
 This project involves
+
 **1. Data Architecture:** Designing a Modern Data Warehouse Using Meddalion Architecture **Bronze, Silver, and Gold** layers.
 **2. ETL Pipelines:** Extracting, transforming, and eloading data from source system into the warehouse.
 **3. Data Modeling:** Developing fact and dimension tables optimized for analytical queries.
