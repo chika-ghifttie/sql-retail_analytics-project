@@ -14,6 +14,7 @@ This project involves
    **2. ETL Pipelines:** Extracting, transforming, and eloading data from source system into the warehouse.
    
    **3. Data Modeling:** Developing fact and dimension tables optimized for analytical queries.
+   
    **4. Analytics & Reporting:** Creating SQL-based reports and dashboards for actionable insights.
 
 🎯 This repository is an excellent resource for professionals and students looking to showcase expertise in:
@@ -28,6 +29,13 @@ This project involves
 ---
 
 ## 🛠️ Important Links & Tools
+
+Access all for free!
+
+🔗 **Dataset Source**
+The dataset used in this project was obtained from [Kaggle](https://www.kaggle.com/datasets).  
+*(Exact link unavailable at the moment.)*
+
 
 
 
