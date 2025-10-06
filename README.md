@@ -90,18 +90,41 @@ To develop a modern data warehouse using SQL Server to consolidate retail sales 
 
   **3. Gold Layer:** Houses aggregated, business-ready data structured in a star schema, optimized for analytics, dashboards, and reporting.
 
+---
+
+## 🗂️ Repository Structure
+
+```text
+📦 retail-analytics-project
+├── 📁 datasets
+│   └── (source files and cleaned datasets)
+│
+├── 📁 docs
+│   ├── etl.drawio
+│   ├── data_architecture.drawio
+│   ├── data_catalog.md
+│   ├── data_flow.drawio
+│   ├── data_models.draw.io
+│   └── naming_convention.md
+│
+├── 📁 scripts
+│   ├── bronze_layer
+│   ├── silver_layer
+│   └── gold_layer
+│
+├── 📁 tests
+│   ├── README.md
+│   ├── LICENSE
+│   └── requirements.txt
+│
+└── README.md
+
+---
 
  🎯 As part of my journey in data analytics, this repository highlights my work using SQL to clean and analyze data.
     It reflects my growing expertise in transforming raw data into meaningful insights.
 
     ---
-
-
-
-
-    
-
-   ---
 
    ## 😊 About Me
 
