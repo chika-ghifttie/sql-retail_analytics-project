@@ -83,7 +83,6 @@ To develop a modern data warehouse using SQL Server to consolidate retail sales 
 
 ---
 
-```text
 📦 retail-analytics-project
 ├── 📁 datasets
 │   └── (source files and cleaned datasets)
