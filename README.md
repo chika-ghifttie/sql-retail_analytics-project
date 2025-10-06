@@ -72,10 +72,29 @@ To develop a modern data warehouse using SQL Server to consolidate retail sales 
 
    These insights give key business metrics,thereby enabling strategic decision-making.
 
+   ---
+
+  ## 🏗️ Data Architecture
+
+  The Data Architecture for this project follows the Meddalion Architecture **Bronze, Silver, and Gold Layer**
+
+  [drawio.drawio](https://github.com/user-attachments/files/22722878/drawio.drawio)
+
+  The Medallion Architecture organizes data into three layers for better quality and accessibility:
+
+  **1. Bronze Layer:** Stores raw data directly from source systems with no transformation applied. Data is ingested from CSV 
+  files into SQL Server Database.
+
+  **2. Silver Layer:** Includes cleansing, standardization, and normalization process preparing data for analysis and modeling.  
+
+  **3. Gold Layer:** Houses aggregated, business-ready data structured in a star schema, optimized for analytics, dashboards, and reporting.
+
+
  🎯 As part of my journey in data analytics, this repository highlights my work using SQL to clean and analyze data.
     It reflects my growing expertise in transforming raw data into meaningful insights.
 
     ---
+
 
 
 
