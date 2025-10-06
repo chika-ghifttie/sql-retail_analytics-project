@@ -78,7 +78,8 @@ To develop a modern data warehouse using SQL Server to consolidate retail sales 
 
   The Data Architecture for this project follows the Meddalion Architecture **Bronze, Silver, and Gold Layer**
 
-  [image](https://github.com/user-attachments/files/22722878/drawio.drawio)
+  <img width="874" height="616" alt="data_architecture" src="https://github.com/user-attachments/assets/e48861f7-3173-4109-ae4a-06a488d43dff" />
+
 
   The Medallion Architecture organizes data into three layers for better quality and accessibility:
 
