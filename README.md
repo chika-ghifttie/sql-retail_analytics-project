@@ -110,13 +110,11 @@ To develop a modern data warehouse using SQL Server to consolidate retail sales 
 │
 └── README.md
 
------------------------
-
- 🎯 As part of my journey in data analytics, this repository highlights my work using SQL to clean and analyze data.
-    It reflects my growing expertise in transforming raw data into meaningful insights.
+🎯 As part of my journey in data analytics, this repository highlights my work using SQL to clean and analyze data.  
+It reflects my growing expertise in transforming raw data into meaningful insights.
 
 ---
 
-   ## 😊 About Me
+## 😊 About Me
 
-   HI! I'm **Nworu Chika Gift**, you can call me **Chika**. I'm a graduate of International Relations and an aspiring Data Analyst. Passionate about education advocacy & continuous growth and I'm always learning, sharing, and building ✨.
+Hi! I'm **Nworu Chika Gift**, you can call me **Chika**. I'm a graduate of International Relations and an aspiring Data Analyst. Passionate about education advocacy & continuous growth, and I'm always learning, sharing, and building ✨.
