@@ -83,6 +83,9 @@ To develop a modern data warehouse using SQL Server to consolidate retail sales 
 
 ---
 
+## 🗂️ Repository Structure
+
+```text
 📦 retail-analytics-project
 ├── 📁 datasets
 │   └── (source files and cleaned datasets)
@@ -106,6 +109,7 @@ To develop a modern data warehouse using SQL Server to consolidate retail sales 
 │   └── requirements.txt
 │
 └── README.md
+
 
 ---
 
