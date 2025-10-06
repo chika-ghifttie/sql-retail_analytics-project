@@ -83,9 +83,6 @@ To develop a modern data warehouse using SQL Server to consolidate retail sales 
 
 ---
 
-## 🗂️ Repository Structure
-
-```text
 📦 retail-analytics-project
 ├── 📁 datasets
 │   └── (source files and cleaned datasets)
@@ -112,11 +109,13 @@ To develop a modern data warehouse using SQL Server to consolidate retail sales 
 
 ---
 
-🎯 As part of my journey in data analytics, this repository highlights my work using SQL to clean and analyze data.  
+🎯 **As part of my journey in data analytics**, this repository highlights my work using SQL to clean and analyze data.  
 It reflects my growing expertise in transforming raw data into meaningful insights.
 
 ---
 
 ## 😊 About Me
 
-Hi! I'm **Nworu Chika Gift**, you can call me **Chika**. I'm a graduate of International Relations and an aspiring Data Analyst. Passionate about education advocacy & continuous growth, and I'm always learning, sharing, and building ✨.
+Hi! I'm **Nworu Chika Gift**, you can call me **Chika**.  
+I'm a graduate of International Relations and an aspiring Data Analyst.  
+Passionate about education advocacy & continuous growth, and I'm always learning, sharing, and building ✨.
