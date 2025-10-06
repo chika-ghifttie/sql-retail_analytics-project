@@ -86,7 +86,6 @@ To develop a modern data warehouse using SQL Server to consolidate retail sales 
 🎯 **As part of my journey in data analytics**, this repository highlights my work using SQL to clean and analyze data.  
 It reflects my growing expertise in transforming raw data into meaningful insights.
 
----
 
 ## 😊 About Me
 
