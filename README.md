@@ -31,21 +31,20 @@ This project involves:
 
 Access all for free!
 
- **Dataset Source:**
+ - **Dataset Source:**
 The dataset used in this project was obtained from [Kaggle](https://www.kaggle.com/datasets).  
 *(Exact link unavailable at the moment.)*
 
-**SQL Server Express:** Free SQL database engine for hosting your data warehouse locally.
+- **SQL Server Express:** Free SQL database engine for hosting your data warehouse locally.
 [Download SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) 
 
-**SQL Server Management Studio (SSMS):** Interface for managing SQL Server databases, writing queries, and running ETL scripts. 
+- **SQL Server Management Studio (SSMS):** Interface for managing SQL Server databases, writing queries, and running ETL scripts. 
 [Download SSMS](https://aka.ms/ssmsfullsetup) 
 
-**draw.io (diagrams.net):** Used to design data architecture and ETL pipeline diagrams. 
+- **draw.io (diagrams.net):** Used to design data architecture and ETL pipeline diagrams. 
 [Open draw.io](https://app.diagrams.net/) 
 
- 📝 **Notion** | Used for organizing project notes, steps, and documentation. [Go to Notion](https://www.notion.so/) 
-
+- **Notion** | Used for organizing project notes, steps, and documentation. [Go to Notion](https://www.notion.so/) 
 
 ---
 ## 🚀 Project Requirements
