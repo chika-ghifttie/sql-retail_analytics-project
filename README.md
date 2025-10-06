@@ -5,9 +5,8 @@ This project demonstrates the design and implementation of a SQL Server data war
 
 ---
 
-## 📋 Project Requirement
-
-This project involves
+## ⚙️ Project Scope and Components
+This project involves:
 
    **1. Data Architecture:** Designing a Modern Data Warehouse Using Meddalion Architecture **Bronze, Silver, and Gold** layers.
    
@@ -35,6 +34,9 @@ Access all for free!
 🔗 **Dataset Source:**
 The dataset used in this project was obtained from [Kaggle](https://www.kaggle.com/datasets).  
 *(Exact link unavailable at the moment.)*
+
+**SQL Server Express:** Free SQL database engine for hosting your data warehouse locally.
+[Download SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) 
 
 
 
